@@ -84,10 +84,13 @@ Since p>0.05, we fail to reject the null hypothesis.
 This means there is no statistically significant difference in RPU between the two groups.
 
 The 95% confidence interval for the difference in RPU was [-₹1.59, +₹1.17]. Since this interval contains 0, it confirms our finding that there is no statistically significant gain or loss.
-Metric	Test Used	Control Group (A)	Treatment Group (B)	p-value	Finding (at α=0.05)
-Conversion Rate (Guardrail)	Chi-squared	3.01%	2.80%	0.024	Statistically Significant Drop
-Revenue Per User (Main)	Welch's t-test	₹16.48	₹17.07	0.647	No Significant Difference
-Avg. Order Value (AOV)	-	₹547.41	₹610.19	-	Treatment AOV is higher*
+
+Results Summary
+
+Metric,Test Used,Control Group (A),Treatment Group (B),p-value,Finding (at α=0.05)
+Conversion Rate (Guardrail),Chi-squared,3.01%,2.80%,0.024,Statistically Significant Drop
+Revenue Per User (Main),Welch's t-test,₹16.48,₹17.07,0.647,No Significant Difference
+Avg. Order Value (AOV),-,₹547.41,₹610.19,-,Treatment AOV is higher*
 
 The AOV for the treatment group did increase, suggesting users who did convert were spending more to meet the new threshold. However, this gain was completely offset by the number of users who abandoned their carts, as seen by the drop in conversion.
 
